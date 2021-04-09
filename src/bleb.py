@@ -25,7 +25,7 @@ def on_message(client, userdata, message):
 
 ########################################################################################################################
 #  LOGGING SETUP
-logging.basicConfig(level=logging.INFO, format='%(asctime)s,%(levelname)s,%(message)s', datefmt="%Y-%m-%d %H:%M:%S",
+logging.basicConfig(level=logging.INFO, format='%(asctime)s,%(message)s', datefmt="%Y-%m-%d %H:%M:%S",
                     handlers=[TimedRotatingFileHandler(f'/home/pi/Source/Bleb/logs/daily.log', when='midnight', backupCount=50)])
 
 client = Client()
