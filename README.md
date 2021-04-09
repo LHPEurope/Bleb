@@ -1,3 +1,3 @@
 # Bleb Data
 
-You can find all data in the log folder.
+You can find all data in the "logs" folder.
