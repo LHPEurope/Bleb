@@ -15,12 +15,12 @@ def on_message(client, userdata, message):
     topic = message.topic
     message = message.payload.decode()
     if topic.split("/")[-1] == "cmd":
-        logging.info(f"COMMAND,{topic}")
+        logging.info(f"COMMAND,{topic},{message}")
         lastCommandTime = datetime.now()
     else:
         if lastCommandTime != None:
             if (datetime.now() - lastCommandTime).total_seconds() / 60.0 < 10:
-                logging.info(f"DATA,{topic}")
+                logging.info(f"DATA,{topic},{message}")
 
 
 ########################################################################################################################
