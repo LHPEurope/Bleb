@@ -1,3 +1,5 @@
 #!/bin/bash
 
-git add ../logs
+git add /home/pi/Source/Bleb/logs
+git commit /home/pi/Source/Bleb/logs -m "new data"
+git push
