@@ -2,5 +2,7 @@
 
 cd /home/pi/Source/Bleb/
 git add ./logs
+git add ./info
 git commit ./logs -m "new data"
-git push
+git commit ./info -m "new info"
+git push -f
