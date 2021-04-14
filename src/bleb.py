@@ -28,6 +28,19 @@ def on_message(client, userdata, message):
 logging.basicConfig(level=logging.INFO, format='%(asctime)s,%(message)s', datefmt="%Y-%m-%d %H:%M:%S",
                     handlers=[TimedRotatingFileHandler(f'/home/pi/Source/Bleb/logs/daily.log', when='midnight', backupCount=50)])
 
+
+def on_message_info(client, userdata, message):
+    gateway = message.topic.split("/")[1]
+    with open(f'home/pi/Source/Bleb/info/{gateway}.log', 'a+') as f:
+        print(datetime.now(), file=f)
+
+
+client_info = Client()
+client_info.on_message = on_message_info
+client_info.connect("localhost")
+client_info.subscribe("gw_esp/+/info")
+client_info.loop_start()
+
 client = Client()
 client.on_message = on_message
 client.connect('localhost')
