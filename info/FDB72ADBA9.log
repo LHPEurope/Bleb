@@ -1,60 +1,42 @@
-2021-04-14 13:19:13.674997
-2021-04-14 13:19:23.670259
-2021-04-14 13:19:33.669156
-2021-04-14 13:19:43.673215
-2021-04-14 13:19:53.713012
-2021-04-14 13:20:03.668521
-2021-04-14 13:20:13.687288
-2021-04-14 13:20:23.668720
-2021-04-14 13:20:33.668418
-2021-04-14 13:20:43.725663
-2021-04-14 13:20:53.668309
-2021-04-14 13:21:03.667746
-2021-04-14 13:21:13.707376
-2021-04-14 13:21:23.669015
-2021-04-14 13:21:33.712466
-2021-04-14 13:21:43.687085
-2021-04-14 13:21:53.669088
-2021-04-14 13:27:53.677845
-2021-04-14 13:28:03.671238
-2021-04-14 13:28:13.740545
-2021-04-14 13:28:23.671647
-2021-04-14 13:28:33.671637
-2021-04-14 13:28:43.672694
-2021-04-14 13:28:53.671453
-2021-04-14 13:29:03.721699
-2021-04-14 13:29:13.671846
-2021-04-14 13:29:23.672323
-2021-04-14 13:29:33.672760
-2021-04-14 13:29:43.742271
-2021-04-14 13:29:54.297664
-2021-04-14 13:30:03.671819
-2021-04-14 13:30:13.672096
-2021-04-14 13:30:23.683919
-2021-04-14 13:30:33.721696
-2021-04-14 13:30:43.671306
-2021-04-14 13:30:53.703873
-2021-04-14 13:31:03.672686
-2021-04-14 13:31:13.723044
-2021-04-14 13:31:23.686179
-2021-04-14 13:31:33.674164
-2021-04-14 13:31:43.672390
-2021-04-14 13:31:53.691714
-2021-04-14 13:32:07.841308
-2021-04-14 13:32:13.673562
-2021-04-14 13:32:23.689616
-2021-04-14 13:32:33.952094
-2021-04-14 13:32:43.721625
-2021-04-14 13:32:53.674901
-2021-04-14 13:33:03.673657
-2021-04-14 13:33:13.673487
-2021-04-14 13:33:23.723714
-2021-04-14 13:33:33.674602
-2021-04-14 13:33:43.678330
-2021-04-14 13:33:53.673605
-2021-04-14 13:34:03.673839
-2021-04-14 13:34:13.728269
-2021-04-14 13:34:23.674189
-2021-04-14 13:34:33.674534
-2021-04-14 13:34:43.674905
-2021-04-14 13:34:53.728250
+2021-04-14 13:38:03.688993,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:38:13.675457,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:38:23.675931,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:38:33.737294,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:38:43.675349,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:38:53.675735,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:39:03.675742,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:39:13.721603,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:39:23.676003,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:39:33.676464,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:39:43.679390,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:39:53.723668,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:40:03.676532,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:40:13.677006,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:40:23.676508,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:40:33.680230,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:40:43.680392,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:40:53.956458,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:41:03.686120,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:41:13.725008,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:41:23.675953,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:41:33.734602,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:41:43.677723,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:41:53.677377,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:42:03.727561,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:42:13.727980,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:42:23.676513,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:42:33.696751,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:42:43.678035,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:42:53.677331,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:43:03.723570,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:43:13.677583,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:43:23.679527,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:43:33.677098,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:43:43.738291,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:43:53.679212,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:44:03.678209,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:44:13.677980,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:44:23.679903,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:44:33.723764,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:44:43.678255,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
+2021-04-14 13:44:53.678210,{"Publish interval":10000,"BLE connection":"Not connected","FW version":15}
