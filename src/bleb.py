@@ -18,6 +18,9 @@ def on_message(client, userdata, message):
         logging.info(f"COMMAND,{topic},{message}")
         lastCommandTime = datetime.now()
     else:
+        with open(f'home/pi/Source/Bleb/info/FAD4B9DDCA-FDB72ADBA9.log', 'a+') as f:
+            print(datetime.now(), message, sep=',', file=f)
+
         if lastCommandTime != None:
             if (datetime.now() - lastCommandTime).total_seconds() / 60.0 < 10:
                 logging.info(f"DATA,{topic},{message}")
