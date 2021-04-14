@@ -1,3 +1,6 @@
 # Bleb Data
+## Logs
+I log sono nel formato specificato per il problema dell'8 aprile.
 
-You can find all data in the "logs" folder.
+## Info
+I pacchetti info dei vari gateway.
