@@ -18,7 +18,7 @@ def on_message(client, userdata, message):
         logging.info(f"COMMAND,{topic},{message}")
         lastCommandTime = datetime.now()
     else:
-        with open(f'home/pi/Source/Bleb/info/FAD4B9DDCA-FDB72ADBA9.log', 'a+') as f:
+        with open(f'/home/pi/Source/Bleb/info/CFFB983589-FDB72ADBA9.log', 'a+') as f:
             print(datetime.now(), message, sep=',', file=f)
 
         if lastCommandTime != None:
@@ -34,7 +34,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s,%(message)s', datefm
 
 def on_message_info(client, userdata, message):
     gateway = message.topic.split("/")[1]
-    with open(f'home/pi/Source/Bleb/info/{gateway}.log', 'a+') as f:
+    with open(f'/home/pi/Source/Bleb/info/{gateway}.log', 'a+') as f:
         print(datetime.now(), message.payload.decode(), sep=',', file=f)
 
 
@@ -49,6 +49,6 @@ client.on_message = on_message
 client.connect('localhost')
 client.subscribe("gw_esp/FDB72ADBA9/000102030400/cmd")
 client.subscribe("gw_esp/FDB72ADBA9/0001020304/cmd")
-client.subscribe("gw_esp/FAD4B9DDCA/FDB72ADBA9/data")
+client.subscribe("gw_esp/CFFB983589/FDB72ADBA9/data")
 
 client.loop_forever()
